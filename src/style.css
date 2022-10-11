@@ -19,27 +19,30 @@ body {
 .cards {
     margin: 10px;
     box-shadow: 5px 5px 10px gray;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .card-cover {
     width: auto;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     background-color: #0077F7;
     color: white;
 }
-.card-cover h3, h4{
+.card-title{
     padding: 5% 5% 5% 5%;
     width: 100%;
+    margin: 0%;
 }
 .card-body {
-    background-color: white;
+    background-color: rgb(245, 245, 245);
+    padding: 15% 8% 15% 8%;
 }
 .card-content p{
     margin: 0%;
-    border: 1px solid gray;
-    padding: 3%;
+    border: 1px solid rgb(187, 187, 187);
+    padding: 5% 10% 5% 10%;
+    background-color: white;
 }
 #borderBot {
     border-bottom: none;
