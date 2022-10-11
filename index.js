@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const teamBuilder = [
+const managerBuild = [
     {
         type: 'input',
         message: "What is the team manager's name?",
@@ -20,7 +20,7 @@ const teamBuilder = [
     {
         type: 'input',
         message: "What is the team manager's office number?",
-        name: 'phone'
+        name: 'officeNumber'
     }
 ]
 
@@ -28,7 +28,7 @@ const teamBuilder = [
 function init(){
     console.log('Welcome to the team generator!');
     console.log('Please build your team.');
-    inquirer.prompt(teamBuilder)
+    inquirer.prompt(managerBuild)
     .then()
 }
 
