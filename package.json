@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/ChrissnaKhiev/Khievs-Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.3"
+    "inquirer": "^8.2.4"
   }
 }
